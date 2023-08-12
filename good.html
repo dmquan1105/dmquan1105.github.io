@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="Author" content="Quan"/>
+	<meta name="Description" content="My website"/>
+	<meta name="Country" content="Vietnam"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!--để có thể xem được trên điện thoại chuẩn chỉnh hơn-->
+	<link rel="stylesheet" type="text/css" href="css/a.css">
+	<title>Info</title>
+</head>
+<body>
+	<h1 id="menu_txt">Quan's Resume</h1>
+	<nav>
+		<a href="#contact" class="menu_left">Contact</a>
+		<a href="#education" class="menu_left">Education</a>
+		<a href ="#social_media" class="menu_left">Social Media</a>
+		<a href ="#scores" class="menu_left">Scores</a>
+		<a href="#enjoy" class="menu_right">Enjoy</a>
+	</nav>
+
+	<div id="flex_container">
+		<div id="left_side">
+			<h2 id="contact">About me</h2>
+			<img src="assets/studio ghibli.jpg" alt="My photo" width="200" height="200"/> 
+			<p><em>I am working in the information technology field.</em></p>
+			<ul>
+				<li><strong>Full name: </strong> DM Quan</li>
+				<li><strong>Country: </strong> Vietnam</li>
+				</ul>
+			<h2 id="education">Education</h2>
+			<ol>
+				<li>Lien Hiep primary school</li>
+				<li>Thai Hung secondary school</li>	
+				<li>Hung Nhan high school</li>
+			</ol>
+			<h2 id="scores">Scores</h2>
+			<table>
+				<tr>
+					<th rowspan="2"></th> <!-- có thể dùng <th/> nếu trong không có gì -->
+					<th colspan="2">Math</th>
+					<th rowspan="2">Physics</th>
+					<th rowspan="2">Chemistry</th>
+				</tr>
+				<tr>
+					<th>Math 1</th>
+					<th>Math 2</th>
+				</tr>
+				<tr>
+					<th>2023</th>
+					<td>9.8</td>
+					<td>10</td>
+					<td>9.25</td>
+					<td>9.75</td>
+				</tr>
+				<tr>
+					<th>2022</th>
+					<td>10</td>
+					<td>10</td>
+					<td>10</td>
+					<td>10</td>
+				</tr>
+			</table>
+			<h2 id="social_media">Social Media</h2>
+				<p>Youtube: <a href="https://youtube.com">Youtube</a></p>
+				<p>Facebook: <a href="https://facebook.com/profile.php?id=100094605819350">DM Quân</a></p>
+		</div>
+
+		<div id="right_side">
+			<h2 id="enjoy">Maybe you like</h2>
+			<div id="enjoy_container">
+				<div class="enjoy_item">
+					<img class="enjoy_img" src="assets/anhngok.jpg"/>
+					<div class="enjoy_title"><b>Trương Anh Ngọc</b></div>
+					<div class="course_desc"><i>flexing là một bộ môn nghệ thuật(vô cùng tinh tế)</i></div>
+				</div>
+				<div class="enjoy_item">
+					<img class="enjoy_img" src="assets/dinhtiendung.jpg"/>
+					<div class="enjoy_title"><b>Đinh Tiến Dũng</b></div>
+					<div class="course_desc"><i>Cục trưởng cục phòng chống thỏ ngọc</i></div>
+				</div>
+				<div class="enjoy_item">
+					<img class="enjoy_img" src="assets/tom.jpg"/>
+					<div class="enjoy_title"><b>Tâm</b></div>
+					<div class="course_desc"><i>Nạn nhân đầu tiên của AI</i></div>
+				</div>
+				<div class="enjoy_item">
+					<img class="enjoy_img" src="assets/giahuy.jpg"/>
+					<div class="enjoy_title"><b>Gia Huy</b></div>
+					<div class="course_desc"><i>Trêu mèo là sở thích</i></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer id="foot">
+		Created by DM Quân - <a href="mailto: quandm11112005@gmail.com">Email me</a>
+	</footer>
+</body>
+</html>
