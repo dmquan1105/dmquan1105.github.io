@@ -135,4 +135,7 @@ ul {
 	.enjoy_item {
 		flex: 100%;
 	}
+	.menu_left {
+		flex: 25%;
+	}
 }
