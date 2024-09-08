@@ -14,5 +14,4 @@ Type dmquan1105.github.io on Google.
 
 😊
 
-![alt text](image.png)
 ☀️
