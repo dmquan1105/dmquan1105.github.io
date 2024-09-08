@@ -11,3 +11,8 @@ I'm doing something with github...
 ## Local Development
 
 Type dmquan1105.github.io on Google.
+
+😊
+
+![alt text](image.png)
+☀️
